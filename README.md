@@ -25,7 +25,7 @@ Deployment: Interactive Streamlit app for real-time prediction.
 Setup Instructions:
 
 Clone the repository:
-git clone https://github.com/your-username/titanic-app.git
+git clone https://github.com/Saheela1023/ML_Project.git
 cd titanic-app
 
 Create and activate a virtual environment:
@@ -60,7 +60,7 @@ Open the provided local URL in your browser (default: http://localhost:8501)
 
 Input passenger details (Age, Sex, Class, etc.)
 
-Click Predict to see whether the passenger survived.
+Click Predict to see whether the passenger Survived or Did Not Survive.
 
 Example requirements.txt contents:
 pandas
@@ -73,10 +73,12 @@ jupyter
 
 License: MIT License
 
-Acknowledgements:
+Contact / Acknowledgements:
 
-Kaggle Titanic Dataset
+Email: saheela79@gmail.com
 
-Streamlit Documentation
+GitHub Repository: https://github.com/MLStreamlit/ML_Project
 
-Python libraries: Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Streamlit
+Dataset: Kaggle Titanic Competition
+
+Libraries: Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Streamlit
