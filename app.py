@@ -29,7 +29,7 @@ with open("model.pkl", "rb") as file:
 # --------------------------
 # Sidebar menu
 # --------------------------
-menu = ["Home", "Data", "Visualisations", "Predict", "Model Performance","About"]
+menu = ["Home", "Data", "Visualisations", "Predict", "Model Performance"]
 choice = st.sidebar.selectbox("Menu", menu)
 
 # --------------------------
@@ -128,12 +128,3 @@ elif choice == "Model Performance":
     ax_cm.set_ylabel("Actual")
     st.pyplot(fig_cm)
 
-elif About == "About":
-    st.title("About This App")
-    st.write("""
-    **Titanic Survival Prediction App**  
-    This app predicts whether a passenger survived the Titanic disaster using a Random Forest Classifier.  
-    Features used include: Passenger Class, Sex, Age, Siblings/Spouses aboard, Parents/Children aboard, and Fare.  
-
-    Developed as a Machine Learning project for learning purposes.
-    """)
